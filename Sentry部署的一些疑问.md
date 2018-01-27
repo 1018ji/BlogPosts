@@ -1,13 +1,11 @@
 ---
-title: Sentry部署的一些疑问
+title: Sentry 部署的一些疑问
 date: 2018-01-13 19:40:23
 categories: 运维
 tags:
   - PHP
   - Sentry
 ---
-Sentry 部署的一些疑问
-===
 
 # Sentry Docker 部署
 

@@ -7,9 +7,6 @@ tags:
   - Laravel
 ---
 
-Laravel 源码分析第一篇 Facades
-===
-
 # Laravel Facades 使用
 
 **基于 Laravel 5.3.31 分析**

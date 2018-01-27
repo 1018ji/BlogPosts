@@ -8,9 +8,6 @@ tags:
   - SMTP
 ---
 
-PHPMailer 与 SwiftMailer 使用 SMTP 发送邮件
-===
-
 # PHPMailer
 
 ## 源码以及稳定版本：[GitHub](https://github.com/PHPMailer/PHPMailer)

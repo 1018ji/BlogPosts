@@ -6,15 +6,12 @@ tags:
   - SMTP
 ---
 
-关于 SMTP 发送邮件的那些事
-===
-
-![邮件](http://dec3.jlu.edu.cn/webcourse/T000277/files/images/070.jpg)
-
 -------------
 
 ## SMTP简介
 SMTP称为简单邮件传输协议（Simple Mail Transfer Protocal），目标是向用户提供高效、可靠的邮件传输。它的一个重要特点是它能够在传送中接力传送邮件，即邮件可以通过不同网络上的主机接力式传送。通常它工作在两种情况下：一是邮件从客户机传输到服务器；二是从某一个服务器传输到另一个服务器。SMTP是一个请求/响应协议，它监听25号端口，用于接收用户的Mail请求，并与远端Mail服务器建立SMTP连接。
+
+![邮件](http://dec3.jlu.edu.cn/webcourse/T000277/files/images/070.jpg)
 
 ## SMTP连接发送过程
 1. 建立TCP连接

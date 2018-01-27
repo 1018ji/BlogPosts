@@ -6,8 +6,6 @@ tags:
   - PHP
   - Laravel
 ---
-Laravel 源码分析第二篇 Contracts
-===
 
 # Laravel Contracts 使用
 
