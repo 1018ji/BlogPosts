@@ -1,7 +1,11 @@
 ---
 title: PHPMailer 与 SwiftMailer 使用 SMTP 发送邮件
-date: 2018-01-24 13:16:13
+date: 2018-01-01 10:13:05
+categories: 网络
 tags:
+  - PHPMailer
+  - SwiftMailer
+  - SMTP
 ---
 
 PHPMailer 与 SwiftMailer 使用 SMTP 发送邮件
