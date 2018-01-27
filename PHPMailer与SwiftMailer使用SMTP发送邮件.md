@@ -1,4 +1,10 @@
-PHPMailer与SwiftMailer使用SMTP发送邮件
+---
+title: PHPMailer 与 SwiftMailer 使用 SMTP 发送邮件
+date: 2018-01-24 13:16:13
+tags:
+---
+
+PHPMailer 与 SwiftMailer 使用 SMTP 发送邮件
 ===
 
 # PHPMailer

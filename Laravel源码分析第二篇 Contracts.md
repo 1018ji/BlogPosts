@@ -1,4 +1,9 @@
-Laravel源码分析第二篇 Contracts
+---
+title: Laravel 源码分析第二篇 Contracts
+date: 2018-01-24 13:16:13
+tags:
+---
+Laravel 源码分析第二篇 Contracts
 ===
 
 # Laravel Contracts 使用
