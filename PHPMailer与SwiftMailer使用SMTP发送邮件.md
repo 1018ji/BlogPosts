@@ -69,6 +69,8 @@ try {
 ```
 更多详见 [examples](https://github.com/PHPMailer/PHPMailer/tree/5.2-stable/examples "examples") 文件夹
 
+<!-- more -->
+
 ## send函数
 
 ```php

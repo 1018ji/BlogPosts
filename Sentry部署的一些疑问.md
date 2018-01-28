@@ -21,11 +21,13 @@ tags:
 4. sentry-cron（Celery 定时任务）
 5. sentry-worker-1（Celery Worker）
 
-![容器列表](http://oz8myse7t.bkt.clouddn.com/github/2018/01/sentry_main.png)
+![容器列表](https://web-blog-1252155400.cos.ap-beijing.myqcloud.com/blog_photo/2018/01/sentry_main.png)
 
 **Sentry 支持分布式，可启动多个 Worker **
 
 -----------------
+
+<!-- more -->
 
 # Sentry cleanup 清理过期数据
 
@@ -83,7 +85,7 @@ Sentry 安装钉钉插件使 project 支持 钉钉机器人推送信息
 2. 在 `CONFIGURATION（集成`） 的 `Alerts（警报）` 或者 `Integration (所有集成)` 的 `dingtalk` 设置 `dingtalk robot url`
 3. 进入 `CONFIGURATION（集成`） 的 `Alerts（警报）` 页面点击 `dingtalk` 栏目的 `Test Plugin` 测试页面
 
-![测试图片](http://oz8myse7t.bkt.clouddn.com/github/2018/01/sentry_dingtalk.png)
+![测试图片](https://web-blog-1252155400.cos.ap-beijing.myqcloud.com/blog_photo/2018/01/sentry_dingtalk.png)
 
 
 

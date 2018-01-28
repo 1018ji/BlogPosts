@@ -11,7 +11,9 @@ tags:
 ## SMTP简介
 SMTP称为简单邮件传输协议（Simple Mail Transfer Protocal），目标是向用户提供高效、可靠的邮件传输。它的一个重要特点是它能够在传送中接力传送邮件，即邮件可以通过不同网络上的主机接力式传送。通常它工作在两种情况下：一是邮件从客户机传输到服务器；二是从某一个服务器传输到另一个服务器。SMTP是一个请求/响应协议，它监听25号端口，用于接收用户的Mail请求，并与远端Mail服务器建立SMTP连接。
 
-![邮件](http://dec3.jlu.edu.cn/webcourse/T000277/files/images/070.jpg)
+![邮件](https://web-blog-1252155400.cos.ap-beijing.myqcloud.com/blog_photo/2017/11/mail_smtp.jpg)
+
+<!-- more -->
 
 ## SMTP连接发送过程
 1. 建立TCP连接
@@ -76,7 +78,7 @@ C: quit    //退出连接
 S: 221 Bye
 ```
 安装上述步骤就可以在邮件中接收到刚才发送的邮件了。
-![mail_get](http://oz8myse7t.bkt.clouddn.com/0o0/text/1/mail_get.png)
+![mail_get](https://web-blog-1252155400.cos.ap-beijing.myqcloud.com/blog_photo/2017/11/mail_get.png)
 
 状态码，摘自[SMTP状态码](http://www.codeweblog.com/smtp%25E7%258A%25B6%25E6%2580%2581%25E7%25A0%2581/)
 

@@ -67,6 +67,7 @@ $response->send();
 
 $kernel->terminate($request, $response);
 ```
+<!-- more -->
 
 ## kernal 类
 
