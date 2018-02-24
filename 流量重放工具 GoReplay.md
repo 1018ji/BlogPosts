@@ -37,6 +37,8 @@ GoReplay 安装，支持  Windows（新版本可能不支持）, Linux x64 and M
 Version: 0.16.1
 2018/02/24 10:47:37 Required at least 1 input and 1 output
 ```
+<!-- more -->
+
 -----------------
 
 # GoReplay 输入输出参数
