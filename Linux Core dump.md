@@ -66,6 +66,8 @@ ulimit -c unlimited
 
 **尽量将 core file size 设置得大一些，程序崩溃时生成 Core 文件大小即为程序运行时占用的内存大小。在发生堆栈溢出的时候，占用更大的内存**
 
+<!-- more -->
+
 -----------------
 
 # Linux Core 文件名称以及路径设置
@@ -114,8 +116,6 @@ echo "/tmp/core-%e-%p-%t" > /proc/sys/kernel/core_pattern
 * `%e` - insert coredumping executable name into filename 添加导致产生core的命令名
 
 **本文使用 docker debian 如果无法修改系统参数，请添加 --privileged 参数**
-
-<!-- more -->
 
 -----------------
 
