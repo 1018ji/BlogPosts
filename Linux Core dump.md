@@ -115,6 +115,8 @@ echo "/tmp/core-%e-%p-%t" > /proc/sys/kernel/core_pattern
 
 **本文使用 docker debian 如果无法修改系统参数，请添加 --privileged 参数**
 
+<!-- more -->
+
 -----------------
 
 # Linux Core 文件测试
