@@ -6,7 +6,7 @@ tags:
   - PHP
 ---
 
-# PHP 7 快速排序源码分析
+# 代码位置
 PHP 排序源码位置为 Zend/zend_sort.c 方法为 zend_sort
 
 # 基本排序思路
@@ -49,8 +49,8 @@ zend_sort 数据 base、数据长度 nmemb、数据元素长度 siz、对比函�
 ```
 
 # 其他重要说明
-锚点部分设计采用 尾递归消除 [Tail Call Elimination](https://www.geeksforgeeks.org/quicksort-tail-call-optimization-reducing-worst-case-space-log-n/)，降低排序需要的额外空间为 O(logn)
-另外还有一种 编译器尾递归优化 [Tail Call Optimization](http://wiki.c2.com/?TailCallOptimization)，基于编译器减少地柜调用栈过大问题
+锚点部分设计采用 尾递归消除 [Tail Call Elimination](https://www.geeksforgeeks.org/quicksort-tail-call-optimization-reducing-worst-case-space-log-n/)，降低最坏情况调用栈 O(n) 至 O(logn)
+另外还有一种 编译器尾递归优化 [Tail Call Optimization](http://wiki.c2.com/?TailCallOptimization)，编译器优化减少递归调用栈过大问题，降低最坏情况调用栈 O(n) 为 O(1)
 
 <!-- more -->
 
